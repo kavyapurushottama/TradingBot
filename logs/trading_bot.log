@@ -1,0 +1,11 @@
+2026-02-05 10:49:48,232 | INFO | Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-05 10:49:49,053 | INFO | Order successful: {'symbol': 'BTCUSDT', 'orderId': 119960, 'orderListId': -1, 'clientOrderId': 'nIjWZtyafreqn0qA1azTWu', 'transactTime': 1770268789595, 'price': '0.00000000', 'origQty': '0.00100000', 'executedQty': '0.00100000', 'origQuoteOrderQty': '0.00000000', 'cummulativeQuoteQty': '70.60645000', 'status': 'FILLED', 'timeInForce': 'GTC', 'type': 'MARKET', 'side': 'BUY', 'workingTime': 1770268789595, 'fills': [{'price': '70606.45000000', 'qty': '0.00100000', 'commission': '0.00000000', 'commissionAsset': 'BTC', 'tradeId': 25912}], 'selfTradePreventionMode': 'EXPIRE_MAKER'}
+2026-02-05 11:03:25,735 | INFO | Placing order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 80000.0, 'timeInForce': 'GTC'}
+2026-02-05 11:03:26,582 | INFO | Order successful: {'symbol': 'BTCUSDT', 'orderId': 122090, 'orderListId': -1, 'clientOrderId': 'DDBL1ALgblmwxqv8iq4pk9', 'transactTime': 1770269607128, 'price': '80000.00000000', 'origQty': '0.00100000', 'executedQty': '0.00000000', 'origQuoteOrderQty': '0.00000000', 'cummulativeQuoteQty': '0.00000000', 'status': 'NEW', 'timeInForce': 'GTC', 'type': 'LIMIT', 'side': 'SELL', 'workingTime': 1770269607128, 'fills': [], 'selfTradePreventionMode': 'EXPIRE_MAKER'}
+2026-02-05 12:16:39,169 | INFO | TRADING_BOT | Placing order: BTCUSDT BUY MARKET qty=0.001 price=None stop=None
+2026-02-05 12:23:25,058 | INFO | TRADING_BOT | Placing order: BTCUSDT SELL STOP qty=0.001 price=42950.0 stop=42000.0
+
+2026-02-05 13:18:28,354 | INFO | TRADING_BOT | Placing order: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.001}
+2026-02-05 13:18:28,738 | INFO | TRADING_BOT | Order placed | ID=142054 Status=FILLED
+2026-02-05 13:19:00,218 | INFO | TRADING_BOT | Placing order: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.001, 'price': 42000.0, 'timeInForce': 'GTC'}
+2026-02-05 13:19:00,356 | INFO | TRADING_BOT | Order placed | ID=142167 Status=FILLED
