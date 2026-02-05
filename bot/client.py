@@ -13,8 +13,7 @@ class BinanceClient:
             testnet=True
         )
 
-        # Futures Testnet endpoint
-        # self.client.FUTURES_URL = "https://testnet.binancefuture.com"
+        # self.client.FUTURES_URL = "https://testnet.binancefuture.com" # Futures Testnet endpoint
         self.client.API_URL = "https://testnet.binance.vision"
 
     def place_order(self, **kwargs):

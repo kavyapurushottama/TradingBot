@@ -3,11 +3,11 @@ from bot.validators import validate_symbol, validate_side, validate_quantity
 
 def menu():
     print("\n" + "=" * 40)
-    print("🚀 BINANCE SPOT TESTNET BOT")
+    print("BINANCE SPOT TESTNET BOT")
     print("=" * 40)
-    print("1️⃣  Market Order")
-    print("2️⃣  Limit Order")
-    print("3️⃣  Exit")
+    print("1. Market Order")
+    print("2️. Limit Order")
+    print("3️. Exit")
 
 
 def get_input(prompt, cast=str):
@@ -15,7 +15,7 @@ def get_input(prompt, cast=str):
         try:
             return cast(input(prompt))
         except ValueError:
-            print("❌ Invalid input")
+            print("Invalid input")
 
 
 def main():
@@ -48,7 +48,7 @@ def main():
 
         confirm = input("Confirm? (y/n): ").strip().lower()
         if confirm != "y":
-            print("❌ Order cancelled")
+            print("Order cancelled")
             continue
 
 
