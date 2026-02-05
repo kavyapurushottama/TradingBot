@@ -42,3 +42,13 @@ BINANCE_API_SECRET=your_api_secret
 ```
 
 and then run python cli.py
+
+### Sample CLI Flow
+```bash
+========================================
+BINANCE SPOT TESTNET BOT
+========================================
+1️. Market Order
+2️. Limit Order
+3️. Exit
+```
